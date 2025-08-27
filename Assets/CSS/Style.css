@@ -12,7 +12,7 @@ nav {
     z-index: 1000;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
-
+/* Navigation Styles */
 nav ul {
     display: flex;
     justify-content: center;
@@ -34,26 +34,48 @@ nav ul li a {
     font-size: 1.1em;
 }
 
+/*Welcome Section Styles*/
 #Welcome {
     margin-top: 60px; /* To avoid content being hidden behind the fixed nav */
     padding: 2em;
     text-align: center;
 }
+.card-container {
+  display: flex;        /* put cards in a row */
+  flex-wrap: wrap;      /* allow wrapping on smaller screens */
+  gap: 20px;            /* space between cards */
+  justify-content: center; /* center horizontally */
+}
+.card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    margin: 1em 1em;
+    padding: 1em;
+    max-width: 400px;
+    text-align: left;
+}
+.card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
 
+/*Information Section Styles*/
 #Information {
     padding: 2em;
     background: #ecf0f1;
 }
 
+/*Inspiration Section Styles*/
 .Jumbotron {
     position: relative;
     width: 80%;
     max-width: 700px;
     height: 200px;
     overflow: hidden;
-    background: white;
+    background: rgb(7, 83, 196);
     border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 15px rgba(0,0,0,0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,6 +113,7 @@ nav ul li a {
   30%  { opacity: 0; }   /* Fades out */
   100% { opacity: 0; }   /* Remains invisible until the cycle restarts */
 
-#Resource-Links {
+/*Resource Links Section Styles*/
+  #Resource-Links {
 
 }
