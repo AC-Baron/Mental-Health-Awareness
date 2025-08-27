@@ -1,5 +1,10 @@
 body {
+background: #B5C7EB;
+}
 
+/* Fix NavBar Scrolling */
+section {
+  scroll-margin-top: 50px;
 }
 
 nav {
@@ -7,7 +12,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background: #2c3e50;
+    background: #B5C7EB;
     color: #fff;
     z-index: 1000;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -38,7 +43,21 @@ nav ul li a {
 #Welcome {
     margin-top: 60px; /* To avoid content being hidden behind the fixed nav */
     padding: 2em;
-    text-align: center;
+    text-align: left;
+    background: #f4f4f4;
+}
+.Peaceful-Mind-Img {
+    width: 10%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 1em auto;
+}
+
+/*Information Section Styles*/
+#Information {
+    padding: 2em;
+    background: #ecf0f1;
 }
 .card-container {
   display: flex;        /* put cards in a row */
@@ -52,18 +71,14 @@ nav ul li a {
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     margin: 1em 1em;
     padding: 1em;
-    max-width: 400px;
+    max-width: 200px;
     text-align: left;
 }
-.card img {
+.card-img {
     width: 100%;
+    height: 250px;
+    object-fit: cover;
     border-radius: 10px 10px 0 0;
-}
-
-/*Information Section Styles*/
-#Information {
-    padding: 2em;
-    background: #ecf0f1;
 }
 
 /*Inspiration Section Styles*/
@@ -73,7 +88,7 @@ nav ul li a {
     max-width: 700px;
     height: 200px;
     overflow: hidden;
-    background: rgb(7, 83, 196);
+    background: #2a9978;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0,0,0,0);
     display: flex;
@@ -112,8 +127,15 @@ nav ul li a {
   25%  { opacity: 1; }   /* Stays fully visible for a while */
   30%  { opacity: 0; }   /* Fades out */
   100% { opacity: 0; }   /* Remains invisible until the cycle restarts */
+}
 
 /*Resource Links Section Styles*/
   #Resource-Links {
 
 }
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin: 1em;
+}}
