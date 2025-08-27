@@ -20,17 +20,18 @@ nav {
 /* Navigation Styles */
 nav ul {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     margin: 0;
-    padding: 1em 0;
+    padding: 1em 1em;
     list-style: none;
+    gap: 20px;
 }
 
 nav ul li a {
     display: block;
     padding: 0.5em 1.2em;
-    background: #34495e;
+    background: #5d8cbb;
     border-radius: 6px;
     border: 1px solid #18bc9c;
     color: #fff;
@@ -46,12 +47,22 @@ nav ul li a {
     text-align: left;
     background: #f4f4f4;
 }
+.welcome-content {
+  display: flex;
+  align-items: center;  /* vertically align text & Image */
+  justify-content: space-between; /* space out left vs right */
+  gap: 20px;
+}
+
+.welcome-text {
+  flex: 1;
+}
+
 .Peaceful-Mind-Img {
-    width: 10%;
+    width: 300px;
     max-width: 600px;
     height: auto;
     display: block;
-    margin: 1em auto;
 }
 
 /*Information Section Styles*/
@@ -132,6 +143,13 @@ nav ul li a {
 /*Resource Links Section Styles*/
   #Resource-Links {
 
+}
+
+.logo-container {
+    display: flex;             /* puts logos in a row */
+    justify-content: center;   /* centers them */
+    gap: 20px;                 /* space between logos */
+    flex-wrap: wrap; 
 }
 
 .logo {
