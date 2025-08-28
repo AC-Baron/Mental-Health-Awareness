@@ -19,6 +19,10 @@ nav {
   box-sizing: border-box;
 }
 
+section {
+  scroll-margin-top: 30px; /* adjust to the height of your navbar */
+}
+
 /* left side (logo + title) */
 .nav-left {
   display: flex;
@@ -163,10 +167,12 @@ nav {
   .welcome-content {
     flex-direction: column;   /* stack vertically */
     text-align: center;
+    align-items: center;
   }
 
   .welcome-text {
     width: 100%;
+    box-sizing: border-box;
   }
 
   .Peaceful-Mind-Img {
@@ -177,8 +183,10 @@ nav {
 
 /* #region Information Section Styles*/
 #Information {
-    padding: 2em;
-    background: #ecf0f1;
+    padding: 1em;
+    background: rgba(226, 115, 208, 0.733);
+    font-size: 18px;
+    text-align: center;
 }
 .card-container {
   display: flex;        /* put cards in a row */
@@ -201,20 +209,41 @@ nav {
     object-fit: cover;
     border-radius: 10px 10px 0 0;
 }
+.card-title {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+    color: #333;
+}
 /* #endregion */
 
 /* #region Inspiration Section Styles */
 #Inspiration {
+  padding: 1.5em;
+  font-size: 18px;
+  background-color: rgba(244, 244, 244, 0.432);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
+
+.Jumbotron-Wrapper {
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center;     /* vertical center within wrapper */
+    height: 30vh;            /* adjust height as needed */
+    padding: 0;
+    margin: 0;
+}
+
 .Jumbotron {
     position: relative;
     width: 80%;
     max-width: 700px;
     height: 200px;
     overflow: hidden;
-    background: #2a9978;
+    background: #8812d6;
     border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0);
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -228,7 +257,7 @@ nav {
       padding: 30px;
       font-size: 1.5rem;
       font-style: italic;
-      color: #333;
+      color: #ffffff;
       animation: fade 20s infinite;
     }
 
@@ -256,6 +285,10 @@ nav {
 
 /* #region Support Section Styles*/
 #Resource-Links {
+    padding: 1em;
+    background: rgba(226, 115, 208, 0.733);
+    font-size: 18px;
+    text-align: center;
 }
 .logo-container {
     display: flex;             /* puts logos in a row */
@@ -268,5 +301,9 @@ nav {
     width: 150px;
     height: auto;
     margin: 1em;
+}
+
+.mailing-list {
+  font-size: 20px;
 }
 /* #endregion */
