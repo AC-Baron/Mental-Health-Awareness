@@ -2,11 +2,7 @@ body {
 background: #B5C7EB;
 }
 
-/* Fix NavBar Scrolling */
-section {
-  scroll-margin-top: 50px;
-}
-
+/* #region Navigation Bar Styles */
 nav {
     position: fixed;
     top: 0;
@@ -17,7 +13,10 @@ nav {
     z-index: 1000;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
-/* Navigation Styles */
+/* Fix NavBar Scrolling */
+section {
+  scroll-margin-top: 50px;
+}
 nav ul {
     display: flex;
     justify-content: right;
@@ -39,8 +38,9 @@ nav ul li a {
     font-weight: 500;
     font-size: 1.1em;
 }
+/* #endregion */
 
-/*Welcome Section Styles*/
+/* #region Welcome Section Styles*/
 #Welcome {
     margin-top: 60px; /* To avoid content being hidden behind the fixed nav */
     padding: 2em;
@@ -64,8 +64,9 @@ nav ul li a {
     height: auto;
     display: block;
 }
+/* #endregion */
 
-/*Information Section Styles*/
+/* #region Information Section Styles*/
 #Information {
     padding: 2em;
     background: #ecf0f1;
@@ -91,8 +92,11 @@ nav ul li a {
     object-fit: cover;
     border-radius: 10px 10px 0 0;
 }
+/* #endregion */
 
-/*Inspiration Section Styles*/
+/* #region Inspiration Section Styles */
+#Inspiration {
+}
 .Jumbotron {
     position: relative;
     width: 80%;
@@ -139,12 +143,11 @@ nav ul li a {
   30%  { opacity: 0; }   /* Fades out */
   100% { opacity: 0; }   /* Remains invisible until the cycle restarts */
 }
+/* #endregion */
 
-/*Resource Links Section Styles*/
-  #Resource-Links {
-
+/* #region Support Section Styles*/
+#Resource-Links {
 }
-
 .logo-container {
     display: flex;             /* puts logos in a row */
     justify-content: center;   /* centers them */
@@ -156,4 +159,5 @@ nav ul li a {
     width: 150px;
     height: auto;
     margin: 1em;
-}}
+}
+/* #endregion */
