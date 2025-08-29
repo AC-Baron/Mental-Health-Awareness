@@ -236,7 +236,6 @@ section {
     display: flex;
     justify-content: center; /* horizontal center */
     align-items: center;     /* vertical center within wrapper */
-    height: 30vh;            /* adjust height as needed */
     padding: 0;
     margin: 0;
 }
@@ -253,6 +252,13 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Small mobile screens */
+@media (max-width: 480px) {
+  .Jumbotron .Quote {
+    font-size: 0.9rem;
+  }
 }
 
 .Quote {
