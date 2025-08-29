@@ -208,6 +208,9 @@ section {
     padding: 1em;
     max-width: 200px;
     text-align: left;
+    display: flex;           /* make card a flex container */
+    flex-direction: column;  /* stack content vertically */
+    justify-content: space-between; /* push link to bottom */
 }
 .card-img {
     width: 100%;
@@ -219,6 +222,14 @@ section {
     font-size: 1.2em;
     margin: 0.5em 0;
     color: #333;
+}
+.card-text {
+    flex-grow: 1; /* only the text expands to fill space */
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* take all available vertical space */
 }
 /* #endregion */
 
@@ -257,7 +268,7 @@ section {
 /* Small mobile screens */
 @media (max-width: 480px) {
   .Jumbotron .Quote {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
   }
 }
 
