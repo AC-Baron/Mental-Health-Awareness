@@ -1,6 +1,10 @@
 # Mental-Health-Awareness
 This is my first project to complete while taking the coding institute course for full stack developer.
 
+This websites aims to raise mental health awareness but providing some beginner friendly information and inspirational quotes
+
+The website also provides a support section for people seeking more in-depth information
+ 
 Project 4: Mental Health Awareness
 External User’s Goal: The user seeks accessible, beginner-friendly information on mental health, including how to recognize common issues and manage stress, presented in a supportive and organised layout.
 
