@@ -170,6 +170,12 @@ section {
     align-items: center;
   }
 
+  @media (max-width: 480px) {
+  .welcome-text h1 {
+    font-size: 1.6rem;    /* smaller for mobile */
+  }
+}
+
   .welcome-text {
     width: 100%;
     box-sizing: border-box;
