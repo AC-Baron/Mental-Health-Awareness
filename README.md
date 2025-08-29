@@ -1,20 +1,41 @@
-# Mental-Health-Awareness
+# Mental-Health-Awareness - PsycheSupport
 This is my first project to complete while taking the coding institute course for full stack developer.
 
-This websites aims to raise mental health awareness but providing some beginner friendly information and inspirational quotes
+This website (Psyche Support) aims to raise mental health awareness butwhile providing some beginner friendly information and inspirational quotes
 
-The website also provides a support section for people seeking more in-depth information
- 
-Project 4: Mental Health Awareness
-External User’s Goal: The user seeks accessible, beginner-friendly information on mental health, including how to recognize common issues and manage stress, presented in a supportive and organised layout.
+This website is 1 page consisting on multiple sections that can be navigated by either scrolling or using the built in Nav bar, and has been created with multiple screen size taken into account to ensure the user has a pleasant experience
 
-Site Owner’s Goal: The site owner wants to create a welcoming webpage that provides basic mental health information using a clean and supportive design. The focus is on using HTML and CSS with Bootstrap to create a calming and well-organised user experience.
+## **pages:**
+-Welcome, this section describes the purpose of the website
 
-Potential Features might Include:
+-Information, this section contains cards for common mental health issues that people may experience. each card contains a brief descriptionof each and a 'Learn more' link to direct them to additonal information on that particular issue.
 
-•	Hero Section with Positive Messaging: A Bootstrap Jumbotron with an encouraging message about mental health, using a calming colour scheme and a simple background image.
+-Inspiration, this section contains a jumbotron/carousel of sorts containing multiple quotes to help uplift peoples spirits and encourage them to keep moving forward.
 
-•	Information Cards: Use Bootstrap’s card components to present mental health tips and common issues, providing a visually appealing way to organise content.
+-Support, this section cotains links to other websites such as Mind, NHS and mental health resource. In addition there is also a form for people to fill out with their details if they wish to reach out for additional support or need more specific advice.
 
-•	Resource Links: A grid layout for external links to mental health resources styled with Bootstrap buttons to make them stand out.
-•	Positive Affirmations: Use Bootstrap’s text utilities to include a section with uplifting quotes or messages to encourage users.
+## **Potential Future Additions:**
+-Links to social media pages such as linkedin, facebook, or youtube (support/calming music)
+
+-Larger disscussion of community groups
+
+-Section further broken down into seeking support and providing support, for people who seek to help people and people seeking help themselves
+
+-add a built in short video explaining the importance of mental health awareness
+
+## **credits**
+-Bootstrap code hs been used for the card design
+
+-Assistance from AI for debugging
+
+-Inspirational quotes taken from various online sources, referrenced with their quote on the inspiration section
+
+-Images taken from various online sources and generated from AI
+
+## **Features**
+- Educational cards about Stress, Anxiety, Depression, and Neurodivergence
+- Inspirational quotes section to motivate and encourage users
+- Links to trusted mental health resources like NHS, Mind, and other organizations
+- Responsive design suitable for desktop and mobile devices
+- Mailing list form to receive tips and updates
+- Accessible navigation with a fixed navbar
